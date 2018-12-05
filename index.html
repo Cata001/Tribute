@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="title">Iris - Tribute site</title>
+	<link rel="shortcut icon" href="img/iris_logo-black.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header class="header container">
+		<img src="img/iris-logo.png" alt="Iris-logo" class="responsive" id="image-logo">
+	<!-- 	<h1 class="hdr-txt">Iris<span class="blinking"> |</span></h1>
+		<p>The band who changed my world!</p> -->
+	</header>
+	<main  id="main">
+			<div id="img-div">
+			<img src="img/iris.jpg" alt="Iris-image" class="responsive" id="image">
+			<div id="img-caption">“Only for You” - IRIS</div><br>
+		</div>
+
+
+		<div class="about-him"  id="tribute-info">
+			<h2 class="hdr-txt" >Biography</h2>
+			<p id="Biography">IRIS is a Romanian rock band established in 1976 by Ioan Dumitrescu (drums), Ion Olteanu (lead solo guitar, vocals) and Emil Lechinţeanu (bass guitar). They achieved success, followed by tours throughout Romania and recordings for radio broadcast. At the 2006 MTV Romania Music Awards, Iris won the Best Rock Award and were nominated for Best Band and Best Live Act.</p>
+		</div>
+		
+		<div class="members">
+			<h2 class="hdr-txt">First Members</h2>
+			<ul>
+				<li><strong>Nelu Dumitrescu</strong> - drums, percussion, backing vocals (1977–present)</li><br>
+				<li><strong>Cristi Minculescu</strong> - lead vocals (1980–1982, 1985–2012, 2015-present)</li><br>
+				<li><strong>Doru 'Boro' Borobeică</strong> - bass guitar, backing vocals (1984–present)</li><br>
+				<li><strong>Valter Popa</strong> - guitar, backing vocals (1986–present)</li><br>
+				<li><strong>Relu Marin</strong> - collaborator - keyboards, backing vocals (2005–present)</li><br>
+			</ul>
+					
+
+			<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+
+<!--
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div> -->
+
+<div class="navbar">
+		<a href="#home">Biography</a>
+	<a><button onclick="openRequestedPopup()">Click me</button></a>
+		<div class="dropdown">
+				<button class="dropbtn">Members 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			
+		</div>
+		<div class="dropdown">
+						<button class="dropbtn">Discography 
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+		</div> 
+	</div>
+
+	
+
+<script>
+ 	var p = document.getElementById("Biography"); // Find the paragraph element in the page
+  p.onclick = openRequestedPopup; // Add onclick function to element
+    
+  function showAlert(event) {
+    
+		window(windowObjectReference);
+		
+  }
+
+var windowObjectReference;
+var strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
+
+function openRequestedPopup() {
+ windowObjectReference = window.open("http://www.cnn.com/", "CNN_WindowName", strWindowFeatures);
+}
+</script>
+<!--
+<div class="jquery_accordion_wrapper">
+		<div class="jquery_accordion_item">
+			<div class="jquery_accordion_title">First Section Tab Title</div>
+			<div class="jquery_accordion_content">
+				<p>Lorem ipsum dolor sit amet.</p>
+				<p>Delectus similique tenetur voluptas eligendi.</p>
+			</div>
+		</div>
+	
+		<div class="jquery_accordion_item">
+			<div class="jquery_accordion_title">Second Section Title</div>
+			<div class="jquery_accordion_content">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+	
+		<div class="jquery_accordion_item">
+			<div class="jquery_accordion_title">Third Section Title</div>
+			<div class="jquery_accordion_content">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+	</div>
+
+	$('.jquery_accordion_title').click(function() {
+		$(this).closest('.jquery_accordion_item').siblings().removeClass('active').find('.jquery_accordion_content').slideUp(400);
+		$(this).closest('.jquery_accordion_item').toggleClass('active').find('.jquery_accordion_content').slideToggle(400);
+		return false;
+	});
+-->
+
+	</main>
+	<footer class="footer">
+		<p>Additional information about new IRIS find <a href="HTTP://www.trupairis.ro" target="_blank" >here</a></p>
+	</footer>
+
+</body>
+</html>
