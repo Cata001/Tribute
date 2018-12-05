@@ -10,20 +10,23 @@
 <body>
 	<header class="header container">
 		<img src="img/iris-logo.png" alt="Iris-logo" class="responsive" id="image-logo">
+	<!-- 	<h1 class="hdr-txt">Iris<span class="blinking"> |</span></h1>-->
 		<p class="title">The band who changed my world!</p>
 	</header>
 	<main  id="main">
 			<div id="img-div">
 			<img src="img/iris.jpg" alt="Iris-image" class="responsive" id="image">
-			<div id="img-caption">IRIS</div><br>
+			<div id="img-caption">“Only for You” - IRIS</div><br>
 		</div>
+
+
 		<div class="about-him"  id="tribute-info">
-			<h2 class="hd-txt" >Biography</h2>
+			<h2 class="hdr-txt" >Biography</h2>
 			<p id="biography">IRIS is a Romanian rock band established in 1976 by Ioan Dumitrescu (drums), Ion Olteanu (lead solo guitar, vocals) and Emil Lechinţeanu (bass guitar). They achieved success, followed by tours throughout Romania and recordings for radio broadcast. At the 2006 MTV Romania Music Awards, Iris won the Best Rock Award and were nominated for Best Band and Best Live Act.</p>
 		</div>
 		
 		<div class="members">
-			<h2 class="hd-txt">First Members</h2>
+			<h2 class="hdr-txt">First Members</h2>
 			<ul>
 				<li><strong>Nelu Dumitrescu</strong> - drums, percussion, backing vocals (1977–present)</li><br>
 				<li><strong>Cristi Minculescu</strong> - lead vocals (1980–1982, 1985–2012, 2015-present)</li><br>
@@ -36,13 +39,38 @@
 			<!-- Load font awesome icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<div class="navbar">
+		<a href="#tribute-info">Biography</a>
+	  <div class="dropdown">
+				<button class="dropbtn">Members 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			
+		</div>
+		<div class="dropdown">
+						<button class="dropbtn">Discography 
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+		</div> 
+	</div>
+
+	
+
+
 
 	</main>
 	<footer class="footer">
-		<!--<p>Additional information about new IRIS find <a href="HTTP://www.trupairis.ro" target="_blank" id="tribute-link" >here</a></p>-->
-		
-		Additional information about new IRIS find <a href="HTTP://www.trupairis.ro"  target="_blank" id="tribute-link" class="footer">here</a>
-		<a href="#image-logo" class="title">Go to top</a>
+		<p>Additional information about new IRIS find <a href="HTTP://www.trupairis.ro" target="_blank" id="tribute-link" >here</a></p>
 	</footer>
 
 </body>
