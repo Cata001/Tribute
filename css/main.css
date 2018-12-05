@@ -248,3 +248,8 @@
 .jquery_accordion_content > *:first-child {
 	margin-top: 0;
 }
+
+
+.title{
+	text-align: left;
+}
